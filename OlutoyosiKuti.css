@@ -1,0 +1,155 @@
+:root {
+    --firstcolor: #ffc7c7;
+    --secondcolor: #dc7646; ;
+    --thirdcolor: #a45c5c; 
+    --fourthcolor: #6c476e; 
+    --primary-text-color: #212121;
+    --secondary-text-color: #999;
+    --divider-color: #BDBDBD; 
+    --icon-color: #000000; 
+    --color-text: #f7f7f7;
+    --color-text-secondary: #aaa;
+    --box-shadow: 10px 1px 10px;
+}
+
+.h4{
+    font-family: 'Grape Nuts', cursive;
+    text-align: left;
+}
+
+.hidden{
+    display: none;
+}
+
+body
+{
+    background-color: var(--secondcolor); 
+    color:var(--color-text);  
+    margin: auto;
+    width: 95%;
+    max-width: 1024px;
+
+} 
+
+img{
+    padding-top: 20px;
+    text-align:center;
+    height: 250px;
+    width: 250px;
+}
+
+p {
+    margin: 0.75rem 0;
+    padding: 0;
+    width: 100%;
+}
+
+button {
+    border-radius: 25px;
+    color:var(--icon-color);
+    background-color: var(--secondcolor);
+    display: inline-block;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    padding: 1rem 2rem;
+}
+
+button:hover{
+    background-color:var(--fourthcolor) ;
+}
+
+.center{
+    text-align: center;
+    background:var(--thirdcolor); 
+}
+
+.education{
+    background-color: var(--firstcolor);
+    text-align: center;
+    border-radius: 15px;
+    height: 190px;
+    padding:3%;
+    width: 95%;
+}
+
+.education:hover,
+form:hover {
+    box-shadow: var(--box-shadow) var(--color-text);
+}
+
+#left-box{
+    display: inline-block;
+    background-color: var(--fourthcolor);
+    width: 30%;
+    color: var(--icon-color);
+    border-left: 4px solid var(--thirdcolor);
+    padding: 1%;
+}
+
+#right-box{
+    display:inline-block;
+    text-align: left;
+    background-color: var(--secondcolor);
+    width:55%;
+    padding: 1%;
+    color: var(--icon-color);
+}
+
+article aside{
+    display: inline-block;
+    text-align: left;
+    border-left: 4px solid var(--fourthcolor);
+    background-color: var(--secondary-text-color);
+    padding: 0.01rem 0.8rem;
+    width: 95%;
+}
+
+#left{
+    float: left;
+    padding: 1%;
+    width:46.5%
+}
+
+#right{
+    float: right;
+    padding: 1%;
+    width: 46.5%
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+form{
+    justify-content: center;
+    background-color: var(--thirdcolor);
+    border: 1px solid var(--color-text);
+    border-radius: 5px;
+    display: block;
+    width:auto;
+    padding: 24px;
+}
+
+form header {
+    font-size:x-large;
+    margin: auto;
+    padding: 10px;
+}
+
+hr {
+    background-color: var(--color-text);
+    border: none;
+    height: 1px;
+    margin: 64px 0;
+    width: 100%;
+}
+
+
+
+
+
+

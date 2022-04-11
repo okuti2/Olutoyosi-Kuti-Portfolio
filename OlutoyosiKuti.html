@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="OlutoyosiKuti.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <aside class="center">
+            <img src="Profilepic.jpg">
+            <h1>OLUTOYOSI KUTI</h1>
+            Robotics Engineer, Software Developer
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <p><a href=".\Resume.pdf" download ><button>Resume <i class="fa fa-download"></i></button></a>
+            <a href="#end" ><button>Contact Me</button></a></p>
+        </aside><hr>
+
+        <div class="education">
+            <h3>EDUCATION</h3>
+            
+                <nav id="left-box">
+                    2021-2024 (expected)
+                    <br><b>Associate's Degree</b>
+                
+                </nav>
+                <nav id="right-box">Associate's Degree<br>
+                    SENECA COLLEGE
+                </nav><br><br>
+        
+            <nav id="left-box">
+                2018-2020
+                <br><b>Bachelor's Degree</b>
+                
+            </nav>
+            <nav id="right-box">Bachelor's Degree<br>
+                UNIVERSITY OF ALBERTA
+            </nav>
+
+        </div><hr>
+
+        <article><aside>
+            <div id="left">
+                <h2>About Me and Honesty Statement</h2>
+            
+                <p class="h4">
+                    I am an international student in the Computer Programing and Analysis program in Seneca college, Newham college.
+                    I enjoy programming and robotics, I hope to become a robotics engineer in future or be a software developer. 
+                    I am from Nigeria and moved to Canada in 2018, I first went to the University of Alberta to study mechanical engineering 
+                    but trasnferred to Seneca in 2021. I enjoy sports, travelling and going on new adventures. 
+                    <br><br>I declare that my assessment is wholly my own work in accordance with
+                    Seneca Academic Policy.No part of this assessment has been copied manually or electronically from any other
+                source (including web sites) except for the information supplied by the WEB222 instructors 
+                and / or made available in this assessment for my use. I also declare that no part of this assignment
+                 has been distributed to other students. 
+                </p>
+                <li id="today_date"></li>
+
+            </div>
+            <div id="right">
+                <h2>Basic Information: </h2>
+                <li>NAME:          Olutoyosi Kuti</li><br>
+                <li>STUDENT ID:    102633211</li><br>
+                <li>EMAIL:         okuti2@myseneca.ca</li><br>
+                <li>COURSE:        WEB 222</li><br>
+                <li>CLASS SECTION: NFF</li><br>
+                <li>PROFESSOR:     Alireza Moghaddam</li><br>
+            </div>
+        </aside></article>
+
+        <hr>
+        <div id="end" >
+            <section>
+                <form id="contact-form" class="center" action="https://httpbin.org/post " onsubmit="return validate()" method="post"> <!-- action sends the form to that link if its correct login.jsp does not exist -->
+                    <header>Contact Form</header><br>
+                    <label for="contactname">Name: </label><input name="contactname"  type="text" id="contactname" required minlength="5" maxlength="10"/><br><br>
+                    <label for="email">Email: </label><input name="email" type="email" id="email" required/><br><br>
+                    <label for="address">Address: </label><input name="address" type="text" id="address" required/><br><br>
+                    <label for="city">City:</label><input name="city" list="cities" name="city" id="city" required/>
+                        <datalist id="cities">
+                            <option value="Toronto">
+                            <option value="Edmonton">
+                            <option value="Montreal">
+                            <option value="Niagara Falls">
+                            <option value="Victoria">
+                            <option value="Halifax">
+                            <option value="Quebec">
+                            <option value="Calgary">
+                            <option value="Vancouver">
+                            <option value="Ottawa">
+                            <option value="Winnipeg">
+                        </datalist><br><br>
+                    <label for="postalcode">Postal Code:</label><input id="postalcode" name="postalcode" type="text" pattern="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$" required/><br><br>
+                    <fieldset aria-required="true">
+                        <legend>Response Type</legend>
+                
+                        <input type="radio" name="Option" id="Question-option" value="question" onclick="checking()" >
+                        <label for="Question-option">Question</label>
+                        
+                        <input type="radio" name="Option" id="Comment-option" value="comment" onclick="checking()">
+                        <label for="Comment-option">Comment</label>
+                
+                        <input type="radio" name="Option" id="Hiring-option" value="hiring" onclick="checking()">
+                        <label for="Hiring-option">Hiring</label>
+                
+                    </fieldset><br>
+                    <label id="hourlyrate" class="hidden" for="hourly">Hourly rate:<input id="hourly" type="number" name="hourly" min="15"><br><br></label>
+                    <label for="messagespace">Message:<br>
+                    <textarea name="messagespace" cols="40" rows="5" id="messagespace" required></textarea></label><br><br>
+                    <label for="info-check">All information provided is accurate: </label><input name="info-check" type="checkbox" id="info-check"/><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+        <script src="OlutoyosiKuti.js"></script>
+    </body>
+</html>
