@@ -81,6 +81,7 @@ form:hover {
 #left-box{
     display: inline-block;
     background-color: var(--fourthcolor);
+    height: auto;
     width: 30%;
     color: var(--icon-color);
     border-left: 4px solid var(--thirdcolor);
@@ -89,6 +90,7 @@ form:hover {
 
 #right-box{
     display:inline-block;
+    height: auto;
     text-align: left;
     background-color: var(--secondcolor);
     width:55%;
