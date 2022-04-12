@@ -83,7 +83,8 @@ form:hover {
     width: 30%;
     color: var(--icon-color);
     border-left: 4px solid var(--thirdcolor);
-    padding: 1%;
+    padding-top: 4%;
+    padding-bottom: 1%;
 }
 
 #right-box{
