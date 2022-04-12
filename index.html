@@ -19,7 +19,7 @@
             
                 <nav id="left-box">
                     2021-2024 (expected)
-                    <br><b>Associate's Degree<br><br></b>
+                    <br><b>Associate's Degree<br></b>
                 
                 </nav>
                 <nav id="right-box">Associate's Degree<br>
@@ -29,7 +29,7 @@
         
             <nav id="left-box">
                 2018-2020
-                <br><b>Bachelor's Degree<br><br></b>
+                <br><b>Bachelor's Degree<br></b>
                 
             </nav>
             <nav id="right-box">Bachelor's Degree<br>
@@ -90,7 +90,8 @@
                             <option value="Ottawa">
                             <option value="Winnipeg">
                         </datalist><br><br>
-                    <label for="postalcode">Postal Code:</label><input id="postalcode" name="postalcode" type="text" pattern="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$" required/><br><br>
+                    <label for="postalcode">Postal Code:</label><input id="postalcode" name="postalcode" type="text" oninput="return Provincechecker()" pattern="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$" required/><br><br>
+                    <label for="province">Province:<input id="province" name="province" type="text" required><br><br> </label>
                     <fieldset aria-required="true">
                         <legend>Response Type</legend>
                 
