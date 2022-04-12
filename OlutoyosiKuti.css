@@ -9,7 +9,6 @@
     --icon-color: #000000; 
     --color-text: #f7f7f7;
     --color-text-secondary: #aaa;
-    --box-shadow: 10px 1px 10px;
 }
 
 .h4{
@@ -74,7 +73,7 @@ button:hover{
 
 .education:hover,
 form:hover {
-    box-shadow: var(--box-shadow) var(--color-text);
+    box-shadow: 10px 1px 10px var(--color-text);
 }
 
 #left-box{
